@@ -77,7 +77,7 @@ This installs all required packages including OpenCV, NumPy, Matplotlib, SciPy, 
 This is the most commonly missed step. Without it, Jupyter uses the system Python and cannot find `cv2`.
 
 ```bash
-python -m ipykernel install --user --name=cv\_assignment --display-name "CV Assignment 02 (venv)"
+python -m ipykernel install --user --name=cv_assignment --display-name "CV Assignment 02 (venv)"
 ```
 
 \---
